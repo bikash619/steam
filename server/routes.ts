@@ -3,7 +3,7 @@ import { createServer } from "http";
 import { z } from "zod";
 import { gameFilters } from "@shared/schema";
 
-const RAWG_API_KEY =  "9f946f00404142f59132c1bc508e480e";
+const RAWG_API_KEY =  "6340d05733ef4c4cb00d2d337f150e7d";
 const RAWG_BASE_URL = "https://api.rawg.io/api";
 
 export async function registerRoutes(app: Express) {
